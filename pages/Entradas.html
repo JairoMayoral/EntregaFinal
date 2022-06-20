@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <link rel="shortcut icon" href="../images/Favicon.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Festival de Cactus Rock</title>
+</head>
+<body>
+    <header>                            <!--aca empieza el header--> 
+        <nav class="navbar navbar-expand-lg bg-light bac">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logoElvies" src="../images/Elvis-the-king-of-rock-n-roll-rocknroll-remembered-2696630-312-425.jpg" alt="INICIO LOGO">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/Dia1.html">Dia 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/Dia2.html">Dia 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/Entradas.html">Entradas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/Información.html">Informacion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container_neo">
+        <h1 class="neonText">
+            ¡¡¡Entradas para el Festival !!!
+        </h1>
+        <h2 class="neonText">Todas las tarjetas</h2> 
+        <h2 class="neonText">Consegui un 20% de Descuento completando el formulario de abajo.</h2>
+    </div>
+    <main class="main_entradas">
+        <h1 class="entradas"></h1>
+        <div class="caja_ticket">
+            <img class="ticketfoto" src="../images/ticket.jpg" alt="tickets">
+        </div>
+        <h3 class="h3_entrada">Una vez adquiridas enviamos las entradas a cualquier parte del mundo</h3>
+        <form>
+            <fieldset>
+                <legend class="legend">Completa los campos y obtene tu bonificacion</legend><br>
+                <label for="nombre y apellido">Nombre y Apellido </label><br>
+                <input type="text" name="nombre y apellido" required><br>
+                <label for="Facebook">Facebook</label><br>
+                <input type="text" name="Facebook"required><br>
+                <label for="telefono">Telefono</label><br>
+                <input type="number" name="telefono"required><br>
+                <label for="email">email</label><br>
+                <input type="email" name="email"><br>
+                <label for="">¿Al momento de comprar la entrada, donarias $50 para un comedor local?</label><br>
+                <input type="checkbox" value="s" name="Si, obvio"> Si, obvio<br> 
+                <input type="checkbox" value="n" name="No, gracias"> No, gracias<br><br>
+                <label for="">¿Que tipo de musica escuhas?</label><br>
+                <input type="radio" name="¿Que tipo de musica escuhas?"> Heavy Metal
+                <input type="radio" name="¿Que tipo de musica escuhas?"> Rock
+                <input type="radio" name="¿Que tipo de musica escuhas?"> Rap - trap
+                <input type="radio" name="¿Que tipo de musica escuhas?"> No me gusta la musica <br><br>
+                <label for="¿sos de Argentina?">¿sos de Argentina?</label><br>
+                <select name="¿sos de Argentina?">
+                    <option value="s">Si</option>
+                    <option value="n">No</option>
+                </select><br>
+                <textarea name="mensaje" placheholder= "Que nos recomendarias que tuvieramos en cuenta?"></textarea><br>
+                <input type="submit" value="Mandar">
+                <input type="reset" value="borrar">
+            </fieldset>
+        </form>
+    </main>
+</body>
+<footer>    
+    <section class="p-5">
+        <div class="content">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 text-white">
+                    <img class="logoElvies" src="../images/Elvis-the-king-of-rock-n-roll-rocknroll-remembered-2696630-312-425.jpg" alt="INICIO LOGO">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 text-white">
+                    <p class=" text-warning bg-dark fs-4">Gobierno de la Provincia de Mendoza</p>  
+                    <p class=" text-warning bg-dark fs-4">Copyright © Cactus Rock. Todos los derechos reservados </p>
+                    <p class=" text-warning bg-dark fs-4">Aviso Legal | Cookies | Política de Privacidad </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</footer>
+</html>

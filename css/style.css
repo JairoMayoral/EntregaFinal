@@ -1,0 +1,352 @@
+
+.navbar-nav .nav-item .nav-link{
+    color:#FFFFFF;
+}
+
+#navbarSupportedContent .navbar-nav .nav-item{
+    margin-right:15px;
+}
+
+#navbarSupportedContent .navbar-nav .nav-item:hover{
+    background:#FFFFFF;
+    transition:background 0.3s ease-in;
+}
+
+#navbarSupportedContent .navbar-nav .nav-item:hover .nav-link{
+    color:#000000;
+    transition:color 0.3s ease-in;
+}
+
+.img-width-300{
+    width:300px;
+}
+
+.spotify{
+    margin-top: 15px;
+    margin-right: 90px;
+    border: 10px solid red;
+    border-radius: 40px;
+}
+
+.img-width-50-percent{
+    display:inline-block;
+    width:50%;
+    margin:auto;
+}
+
+#day .card{
+    background:none;
+    border:none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+/* font-family: 'New Rocker', cursive; */
+
+@font-face {
+    font-family: anklepan;
+    src: url("../fonts/ANKLEPAN___.TTF");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Rubik+Glitch&display=swap');
+/* font-family: 'Alegreya', serif; */
+
+
+
+
+/*Reseteo el css*/
+*{
+	border:0;
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+    /* min-height: 100vh;  */
+}
+
+
+       /* *****COMIENZO HEADER ***** */
+.logoElvies{
+    /* max-height: 140%; */
+    height: 150px;
+    /* max-width: 120%; */
+}
+
+.linksInicio{
+    display: flex;
+    justify-content:space-around;
+    /* background-color: rgba(1, 8, 8, 0.81); */
+    font-size: 23px;
+    color: blue;
+}
+
+nav{
+    display: flex;
+    background-image: linear-gradient(to right, black , rgba(60, 60, 60, 0.999));
+    list-style-type: none;
+    justify-content: space-around; 
+    max-height: 500px;
+    width: 100%;
+    align-items: center;
+}
+
+/* nav>ul>li{
+    display: flex;
+    color:green;
+    /* border: green 5px solid; */
+    border-radius: 4px;
+    padding: 0px;
+    margin: 8px 40px 8px 40px;
+    list-style-type: none; */
+}
+
+        /* *****FIN HEADER ******/
+
+
+
+        /*******COMIENZO MAIN ******/
+
+.h1size{
+    color:red;
+}
+
+
+    /* day1 */
+
+    .h2color{
+        color:red;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+.day1color{
+    color: rgba(9, 16, 217, 0.864);
+}
+        /*******FIN MAIN ******/
+
+
+        /*******COMIENZO FOOTER ******/
+
+        /*******FIN FOOTER ******/
+
+
+
+
+        /*******COMIENZO ENTRADAS ******/
+
+
+.neonText {
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+}
+
+h1 {
+    font-size: 4.2rem;    
+}
+
+       /* FLICKER */
+@keyframes flicker {
+    
+0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+    text-shadow:
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px #f00,
+    0 0 80px #f00,
+    0 0 90px #f00,
+    0 0 100px #f00,
+    0 0 150px #f00;
+}
+
+20%, 24%, 55% {        
+    text-shadow: none;
+}    
+}
+
+form{
+    margin-left: 15px;
+}
+
+
+.main_entradas{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column ;
+    justify-content:space-around;
+    /* align-items: flex-end; */
+}
+
+.caja_ticket{
+    height: 55px;
+    width: 30px;
+    margin-left: 800px;
+    margin-top: 10px;
+}
+
+.ticketfoto{
+    height: 555px;
+    width: 530px;
+    margin-top: 150px;
+    border-radius: 50px;
+}
+
+.h3_entrada{
+    font-family: 'New Rocker', cursive;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(2, 122, 34);
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin-left: 50px;
+}
+
+.h3_entrada:hover {
+    color: rgb(17, 167, 69);
+    text-shadow: 0 0 5px #03e9f4;
+        0 0 25px #03e9f4;
+        0 0 50px #03e9f4;
+        0 0 100px #03e9f4;
+}
+
+.legend{
+    font-family: 'New Rocker', cursive;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(2, 122, 34);
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+        
+.legend:hover {
+    color: rgb(17, 167, 69);
+    text-shadow: 0 0 5px #03e9f4;
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 100px #03e9f4,
+}
+
+/* neon for inputs */
+fieldset{
+    font-family: 'New Rocker', cursive;
+    font-size: 15px;
+    font-weight: 300;
+    color: #b9082b6f;
+    letter-spacing: 3px;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+    margin-left: 30px;
+}
+
+fieldset:hover {
+    color: rgb(20, 18, 139);
+    text-shadow: 0 0 0.5px #b9082b6f;
+    0 0 10px #03e9f4;
+    0 0 150px #03e9f4;
+    0 0 20px #03e9f4; 
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+.container {
+    margin-top: 20vh;
+}
+
+body {
+    font-size: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #010a01;
+}  
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+/*******FIN ENTRADAS ******/
+
+/*******COMIENZO INFORMACION ******/
+
+grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+}
+
+.mapa{
+    color: yellow;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    padding: 50px;
+    color: red;
+    font-size: 30px;
+    font-family: 'New Rocker', cursive;
+    filter: drop-shadow(0 0 0.75rem rgb(191, 219, 9));
+    animation-duration: 0.7s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    }
+    @keyframes aparecer {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+.h3info{
+    margin-left: 110px;
+    transform:rotateZ(7deg);
+    filter: drop-shadow(0 0 0.75rem crimson);
+    margin-top: 100px;
+}
+
+.nletra{
+    font-family: Alegreya', serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 500%;
+    color: #0d6efd;
+    margin-left: 55px;
+}
+
+.pvalle{
+    color: rgba(9, 16, 217, 0.864);
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+
+
+/*******FIN INFORMACION ******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
